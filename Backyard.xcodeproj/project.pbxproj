@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312F54FD290D60FD0019395B /* BackyardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F54FC290D60FD0019395B /* BackyardApp.swift */; };
+		312F54FF290D60FD0019395B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F54FE290D60FD0019395B /* ContentView.swift */; };
+		312F5501290D60FD0019395B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312F5500290D60FD0019395B /* Assets.xcassets */; };
+		312F5505290D60FD0019395B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312F5504290D60FD0019395B /* Preview Assets.xcassets */; };
+		312F550F290D60FE0019395B /* BackyardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F550E290D60FE0019395B /* BackyardTests.swift */; };
+		312F5519290D60FE0019395B /* BackyardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F5518290D60FE0019395B /* BackyardUITests.swift */; };
+		312F551B290D60FE0019395B /* BackyardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F551A290D60FE0019395B /* BackyardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312F550B290D60FE0019395B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312F54F1290D60FD0019395B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312F54F8290D60FD0019395B;
+			remoteInfo = Backyard;
+		};
+		312F5515290D60FE0019395B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312F54F1290D60FD0019395B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312F54F8290D60FD0019395B;
+			remoteInfo = Backyard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		312F54F9290D60FD0019395B /* Backyard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backyard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		312F54FC290D60FD0019395B /* BackyardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardApp.swift; sourceTree = "<group>"; };
+		312F54FE290D60FD0019395B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		312F5500290D60FD0019395B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312F5502290D60FD0019395B /* Backyard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Backyard.entitlements; sourceTree = "<group>"; };
+		312F5504290D60FD0019395B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		312F550A290D60FE0019395B /* BackyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312F550E290D60FE0019395B /* BackyardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardTests.swift; sourceTree = "<group>"; };
+		312F5514290D60FE0019395B /* BackyardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackyardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312F5518290D60FE0019395B /* BackyardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardUITests.swift; sourceTree = "<group>"; };
+		312F551A290D60FE0019395B /* BackyardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312F54F6290D60FD0019395B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312F5507290D60FE0019395B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312F5511290D60FE0019395B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312F54F0290D60FD0019395B = {
+			isa = PBXGroup;
+			children = (
+				312F54FB290D60FD0019395B /* Backyard */,
+				312F550D290D60FE0019395B /* BackyardTests */,
+				312F5517290D60FE0019395B /* BackyardUITests */,
+				312F54FA290D60FD0019395B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312F54FA290D60FD0019395B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312F54F9290D60FD0019395B /* Backyard.app */,
+				312F550A290D60FE0019395B /* BackyardTests.xctest */,
+				312F5514290D60FE0019395B /* BackyardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312F54FB290D60FD0019395B /* Backyard */ = {
+			isa = PBXGroup;
+			children = (
+				312F54FC290D60FD0019395B /* BackyardApp.swift */,
+				312F54FE290D60FD0019395B /* ContentView.swift */,
+				312F5500290D60FD0019395B /* Assets.xcassets */,
+				312F5502290D60FD0019395B /* Backyard.entitlements */,
+				312F5503290D60FD0019395B /* Preview Content */,
+			);
+			path = Backyard;
+			sourceTree = "<group>";
+		};
+		312F5503290D60FD0019395B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				312F5504290D60FD0019395B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		312F550D290D60FE0019395B /* BackyardTests */ = {
+			isa = PBXGroup;
+			children = (
+				312F550E290D60FE0019395B /* BackyardTests.swift */,
+			);
+			path = BackyardTests;
+			sourceTree = "<group>";
+		};
+		312F5517290D60FE0019395B /* BackyardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				312F5518290D60FE0019395B /* BackyardUITests.swift */,
+				312F551A290D60FE0019395B /* BackyardUITestsLaunchTests.swift */,
+			);
+			path = BackyardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312F54F8290D60FD0019395B /* Backyard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312F551E290D60FE0019395B /* Build configuration list for PBXNativeTarget "Backyard" */;
+			buildPhases = (
+				312F54F5290D60FD0019395B /* Sources */,
+				312F54F6290D60FD0019395B /* Frameworks */,
+				312F54F7290D60FD0019395B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Backyard;
+			productName = Backyard;
+			productReference = 312F54F9290D60FD0019395B /* Backyard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		312F5509290D60FE0019395B /* BackyardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312F5521290D60FE0019395B /* Build configuration list for PBXNativeTarget "BackyardTests" */;
+			buildPhases = (
+				312F5506290D60FE0019395B /* Sources */,
+				312F5507290D60FE0019395B /* Frameworks */,
+				312F5508290D60FE0019395B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312F550C290D60FE0019395B /* PBXTargetDependency */,
+			);
+			name = BackyardTests;
+			productName = BackyardTests;
+			productReference = 312F550A290D60FE0019395B /* BackyardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		312F5513290D60FE0019395B /* BackyardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312F5524290D60FE0019395B /* Build configuration list for PBXNativeTarget "BackyardUITests" */;
+			buildPhases = (
+				312F5510290D60FE0019395B /* Sources */,
+				312F5511290D60FE0019395B /* Frameworks */,
+				312F5512290D60FE0019395B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312F5516290D60FE0019395B /* PBXTargetDependency */,
+			);
+			name = BackyardUITests;
+			productName = BackyardUITests;
+			productReference = 312F5514290D60FE0019395B /* BackyardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312F54F1290D60FD0019395B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					312F54F8290D60FD0019395B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					312F5509290D60FE0019395B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 312F54F8290D60FD0019395B;
+					};
+					312F5513290D60FE0019395B = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 312F54F8290D60FD0019395B;
+					};
+				};
+			};
+			buildConfigurationList = 312F54F4290D60FD0019395B /* Build configuration list for PBXProject "Backyard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 312F54F0290D60FD0019395B;
+			productRefGroup = 312F54FA290D60FD0019395B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312F54F8290D60FD0019395B /* Backyard */,
+				312F5509290D60FE0019395B /* BackyardTests */,
+				312F5513290D60FE0019395B /* BackyardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312F54F7290D60FD0019395B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312F5505290D60FD0019395B /* Preview Assets.xcassets in Resources */,
+				312F5501290D60FD0019395B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312F5508290D60FE0019395B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312F5512290D60FE0019395B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312F54F5290D60FD0019395B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312F54FF290D60FD0019395B /* ContentView.swift in Sources */,
+				312F54FD290D60FD0019395B /* BackyardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312F5506290D60FE0019395B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312F550F290D60FE0019395B /* BackyardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312F5510290D60FE0019395B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312F551B290D60FE0019395B /* BackyardUITestsLaunchTests.swift in Sources */,
+				312F5519290D60FE0019395B /* BackyardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312F550C290D60FE0019395B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312F54F8290D60FD0019395B /* Backyard */;
+			targetProxy = 312F550B290D60FE0019395B /* PBXContainerItemProxy */;
+		};
+		312F5516290D60FE0019395B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312F54F8290D60FD0019395B /* Backyard */;
+			targetProxy = 312F5515290D60FE0019395B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		312F551C290D60FE0019395B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		312F551D290D60FE0019395B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		312F551F290D60FE0019395B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Backyard/Backyard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backyard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hopes.Backyard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		312F5520290D60FE0019395B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Backyard/Backyard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Backyard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hopes.Backyard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		312F5522290D60FE0019395B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hopes.BackyardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backyard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backyard";
+			};
+			name = Debug;
+		};
+		312F5523290D60FE0019395B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hopes.BackyardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Backyard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Backyard";
+			};
+			name = Release;
+		};
+		312F5525290D60FE0019395B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hopes.BackyardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Backyard;
+			};
+			name = Debug;
+		};
+		312F5526290D60FE0019395B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hopes.BackyardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Backyard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312F54F4290D60FD0019395B /* Build configuration list for PBXProject "Backyard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312F551C290D60FE0019395B /* Debug */,
+				312F551D290D60FE0019395B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312F551E290D60FE0019395B /* Build configuration list for PBXNativeTarget "Backyard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312F551F290D60FE0019395B /* Debug */,
+				312F5520290D60FE0019395B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312F5521290D60FE0019395B /* Build configuration list for PBXNativeTarget "BackyardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312F5522290D60FE0019395B /* Debug */,
+				312F5523290D60FE0019395B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312F5524290D60FE0019395B /* Build configuration list for PBXNativeTarget "BackyardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312F5525290D60FE0019395B /* Debug */,
+				312F5526290D60FE0019395B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312F54F1290D60FD0019395B /* Project object */;
+}
