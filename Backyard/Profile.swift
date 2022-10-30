@@ -18,9 +18,9 @@ struct Profile: View {
                 VStack{
                     Text("Leen")
                         .font(.title)
-                    .fontWeight(.medium).frame(maxWidth: 350, alignment: .leading)
-                    Text("Hi I'm Leen From Saudi Arabia Riyadh Love Reading and Drawing")
-                        .font(.caption).frame(maxWidth: 350, alignment: .leading)
+                    .fontWeight(.medium).frame(maxWidth: 300, alignment: .leading)
+                    Text("Hi I'm Leen From Saudi Arabia Riyadh I Love playing Video Game and Coding")
+                        .font(.caption).frame(maxWidth: 350, alignment: .leading).padding(.trailing, 16.0)
                 }
                 
                 
