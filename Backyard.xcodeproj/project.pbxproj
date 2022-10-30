@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31217072290E9CE20076576B /* Onbording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31217071290E9CE20076576B /* Onbording.swift */; };
 		312F54FD290D60FD0019395B /* BackyardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F54FC290D60FD0019395B /* BackyardApp.swift */; };
 		312F54FF290D60FD0019395B /* MLSubj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312F54FE290D60FD0019395B /* MLSubj.swift */; };
 		312F5501290D60FD0019395B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312F5500290D60FD0019395B /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31217071290E9CE20076576B /* Onbording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onbording.swift; sourceTree = "<group>"; };
 		312F54F9290D60FD0019395B /* Backyard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backyard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		312F54FC290D60FD0019395B /* BackyardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackyardApp.swift; sourceTree = "<group>"; };
 		312F54FE290D60FD0019395B /* MLSubj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLSubj.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				312F54FC290D60FD0019395B /* BackyardApp.swift */,
+				31217071290E9CE20076576B /* Onbording.swift */,
 				312F54FE290D60FD0019395B /* MLSubj.swift */,
 				312F5527290D61920019395B /* MLSpport.swift */,
 				312F5529290D61A60019395B /* MLHobbies.swift */,
@@ -270,6 +273,7 @@
 			files = (
 				312F5528290D61920019395B /* MLSpport.swift in Sources */,
 				312F552C290D61C30019395B /* MLGen.swift in Sources */,
+				31217072290E9CE20076576B /* Onbording.swift in Sources */,
 				312F54FF290D60FD0019395B /* MLSubj.swift in Sources */,
 				312F54FD290D60FD0019395B /* BackyardApp.swift in Sources */,
 				312F552A290D61A60019395B /* MLHobbies.swift in Sources */,

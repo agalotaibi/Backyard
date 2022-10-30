@@ -14,7 +14,7 @@ struct ContentView: View {
         GridItem(.adaptive(minimum: 100))
     
     ]
-    
+    @State var isSelected: Bool = false
 
     var body: some View {
         
@@ -46,9 +46,12 @@ struct ContentView: View {
                         ForEach(subj, id: \.self){ subj in
                             ZStack{
                                 
-                                Circle().frame(width:100, height:100).foregroundColor(.gray).brightness(0.4)
+                                Circle().frame(width:100, height:100).brightness(0.4).foregroundColor(isSelected ? Color.gray : Color.orange)
+                                
                                 Text("\(subj)")
-                                    .font(.system(size: 50))
+                                    .font(.system(size: 50)).onTapGesture{
+                                        isSelected.toggle()
+                                    }
                             }
                         }
                     }
@@ -57,7 +60,6 @@ struct ContentView: View {
             
                 
             }
-            
             
             
                 VStack{
