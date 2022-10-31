@@ -137,7 +137,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 extension Color {
-    init(hex string: String) {
+    init(string: String) {
         var string: String = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         if string.hasPrefix("#") {
             _ = string.removeFirst()
